@@ -135,6 +135,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 600;
 line-height: 80px;
+margin-bottom: 40px;
 }
 .easy-payment-sub-title{
     max-width: 808px;
@@ -193,15 +194,7 @@ margin-right: 50px;
     list-style: none;
     padding-bottom: 16px;
 }
-.fa-check{
-    color: #3F84FF;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #3F84FF;
-    border-radius: 50%;
-    padding: 2px;
-    margin-right: 8px;
-}
+
 .about-title{
     color: #00215C;
 margin-bottom: 24px;
@@ -246,7 +239,10 @@ background: #FFF;
 .question-section{
     max-width: 1170px;
     margin: 0 auto;
+    margin-top: 80px;
+    
 }
+
 .question-sub-title{
     color: #4B6490;
  
@@ -257,7 +253,7 @@ font-weight: 500;
 line-height: normal;
 }
 .questions{
-    margin-top: 40px;
+    margin-top: 16px;
     padding: 32px;
     border: 2px solid #0058F9;
     border-radius: 8px;
@@ -267,6 +263,15 @@ line-height: normal;
 }
 .question-sub-title-color{
     color: #0058F9;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.faq-sub-title{
+    color: #00215C;
 
 font-family: Poppins;
 font-size: 20px;
