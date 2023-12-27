@@ -1,0 +1,344 @@
+header{
+    background: linear-gradient(180deg, #FFF 27.3%, #D8E5FF 162.25%);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 38px; */
+    max-width: 1170px;
+    padding: 24px;
+    margin: 0 auto;
+}
+.nav-title{
+    font-family: League Spartan;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.701px;
+background: linear-gradient(93deg, #5A95FF 16.53%, #FF5AEF 98.47%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.banner{
+    
+    padding: 80px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner img{
+    max-height: 464.207px;
+    padding-right: 50px;
+}
+.banner-title{
+    max-width:552px;
+    background: linear-gradient(90deg, #5B95FF 8.33%, #6298FC 8.34%, #F560EE 72.28%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+.banner-title-2{
+    max-width:552px;
+    color: #00215C;
+font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px;
+}
+.banner-sub-title{
+    color: #060318;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.export-section{
+    background: #FAFBFF;
+}
+.exports-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+.export{
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.payment-section img{
+max-height: 342.483px;
+flex-shrink: 0;
+}
+.payment-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.payment-title{
+    color: #00215C;
+max-width: 554px;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+}
+.payment-sub-title{
+    color: #4B6490;
+max-width: 554px;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+.easy-payment-section{
+    background: linear-gradient(102deg, #CEE0FF 0%, #FFE1FD 100%);
+    text-align: center;
+    padding: 80px 0;
+    
+}
+.easy-payment-title{
+    color: #00215C;
+text-align: center;
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px;
+}
+.easy-payment-sub-title{
+    max-width: 808px;
+    color: #5C5582;
+margin: 0 auto;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 72px;
+}
+.caard{
+width: 370px;
+padding: 32px;
+gap: 10px;
+border-radius: 24px;
+background: #FFF;
+}
+.caard img{
+    width: 72px;
+    margin-bottom: 32px;
+}
+.card-sub-title{
+    color: #707076;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+max-width: 248px;
+margin: 0 auto;
+}
+.about-section img{
+height: 378.462px;
+flex-shrink: 0;
+margin-right: 50px;
+}
+.about-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.about li{
+    list-style: none;
+    padding-bottom: 16px;
+}
+.fa-check{
+    color: #3F84FF;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #3F84FF;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 8px;
+}
+.about-title{
+    color: #00215C;
+margin-bottom: 24px;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+}
+.about-sub-title{
+    color: #4B6490;
+width: 440px;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 32px;
+}
+.customer-section{
+   
+        background: linear-gradient(102deg, #CEE0FF 0%, #FFE1FD 100%);
+        padding: 80px 0;
+        
+}
+.card-img-2{
+    /* margin-bottom: 50px; */
+    position: relative;
+    top: -60px;
+}
+.caard-2{
+width: 570px;
+margin-top: 50px;
+padding: 0px 64px 48px 64px;
+gap: 10px;
+border-radius: 24px;
+background: #FFF;
+}
+.card-sub-title-2{
+    width: 442px;
+}
+.question-section{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.question-sub-title{
+    color: #4B6490;
+ 
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.questions{
+    margin-top: 40px;
+    padding: 32px;
+    border: 2px solid #0058F9;
+    border-radius: 8px;
+}
+.accordion-header{
+    background-color: white;
+}
+.question-sub-title-color{
+    color: #0058F9;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.payments{
+    padding:  57px 57px 0 57px;
+}
+.img-1{
+height: 516.844px;
+flex-shrink: 0;
+}
+
+.pay{
+    background: linear-gradient(180deg, #FBF2FF 0%, #EEF4FF 100%);
+    margin-top: 80px;
+}
+
+footer{
+    background: #00091A;
+    padding: 80px 0;
+    color: white;
+}
+.footer-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-sub-title{
+    color: #FFF;
+width: 300px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.web{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------------------------------- */
+/* media Query */
+/* ----------------------------------- */
+@media screen and (max-width: 677px) {
+    .banner{
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 40px;
+    }
+    .banner img{
+        width: 100%;
+        height: 100%;
+        padding-right: 0;
+    }
+    .banner-title-2, .banner-title{
+        font-size: 44px;
+        line-height: 40px;
+    }
+    .nav{
+        justify-content: space-around;
+    }
+    .nav-list{
+        
+        display: none;
+        flex-direction: column;
+        gap: 0;
+    }
+}
