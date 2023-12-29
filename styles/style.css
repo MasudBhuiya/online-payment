@@ -283,7 +283,7 @@ line-height: normal;
     padding:  57px 57px 0 57px;
 }
 .img-1{
-height: 516.844px;
+max-height: 516.844px;
 flex-shrink: 0;
 }
 
@@ -327,6 +327,7 @@ line-height: normal;
         flex-direction: column;
         gap: 30px;
         padding-top: 40px;
+        padding: 0 20px;
     }
     .banner img{
         width: 100%;
@@ -346,4 +347,93 @@ line-height: normal;
         flex-direction: column;
         gap: 0;
     }
+    .exports-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .easy-payment-section{
+        padding: 27px 20px;
+    }
+    .payment-section{
+        flex-direction: column;
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+    .payment-title{
+        font-size: 36px;
+        line-height: 100%;
+
+    }
+    .about-title{
+        font-size: 36px;
+        line-height: 100%;
+    }
+    .payment-title br{
+        display: none;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .caard{
+        max-width: 100%;
+        }
+        .about-section{
+            flex-direction: column-reverse;
+            padding: 50px 20px;
+        }
+        .about-section br{
+            display: none;
+        }
+        .about-sub-title{
+            width: 100%;
+        }
+        .customer-section{
+            padding: 40px 20px;
+        }
+        .caard-2{
+            width: 100%;
+        }
+        .card-sub-title-2{
+            width: 100%;
+        }
+        .easy-payment-title{
+            font-size: 45px;
+            
+        }
+        .question-section{
+            padding: 0 20px;
+        }
+        .easy-payment-title{
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        margin-bottom: 20px;
+        }
+        .payments{
+            gap: 40px;
+        }
+        .pay{
+            padding: 40px 0;
+        }
+        .img-1{
+            max-height: 50%;
+            flex-shrink: 0;
+            }
+        .img-2{
+            max-width: 50%;
+            flex-shrink: 0;
+            margin-bottom: 100px;
+            }
+
+            .footer-section{
+                flex-direction: column;
+                align-items: center;
+            }
+            .text{
+                text-align: center;
+            }
+            .last{
+                padding: 0 20px;
+            }
 }
